@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🍮MVKL RECEITAS🍰</title>
   <link rel="stylesheet" href="../cssssss/novoprojeto.css">
-  <link rel="stylesheet" href="../cssssss/cssssss/modal.css">
+  
 </head>
 <body>
   <header>
     <h1>Receitas de Bolo</h1>
     <nav>
       <ul>
-       <button> <li><a href="novoprojeto.html">voltar</a></li></button>
-       <button id="btnAbrirModal"><li><a>cadastre-se </a></li></button>
+       <button class="btn-1"> <li><a href="novoprojeto.html">voltar</a></li></button>
       </ul>
     </nav>
   </header>
@@ -37,46 +36,7 @@
     </ul>
     </div>
   </main>
-
-    <dialog id="modal">
-      <div class="container">
-        <div class="form_area">
-            <p class="title">cadastro</p>
-            <form action="">
-                <div class="form_group">
-                    <label class="sub_title" for="name">Nome</label>
-                    <input placeholder="Nome ou apelido" class="form_style" type="text">
-                </div>
-                <div class="form_group">
-                    <label class="sub_title" for="email">Email</label>
-                    <input placeholder="Coloque seu email" id="email" class="form_style" type="email">
-                </div>
-                <div class="form_group">
-                    <label class="sub_title" for="password">Senha</label>
-                    <input placeholder="Crie uma senha" id="password" class="form_style" type="password">
-                    <a href="recuperarSenha.html">Esqueceu a Senha!</a>
-                </div>
-                <div>
-                    <button class="btn">CONFIRMAR</button>
-                    <button id="fecharModal">Fechar</button>
-                </a></div>
-            
-        </a></form></div>
-    </a></div>
-    </dialog>
- <script>
-  const abrirModal = document.querySelector("#btnAbrirModal");
-  const fecharModal = document.querySelector(".btn");
-  const fechaModal = document.querySelector("#fecharModal0");
-  const modal = document.querySelector("#modal");
-
-  abrirModal.onclick = function(){
-    modal.showModal();
-  };
-  fecharModal.onclick = function(){
-    modal.close();
-  };
- </script>
+ 
   <footer>
     <p>© 2024 Receitas de Bolo MVKL</p>
   </footer>

@@ -74,7 +74,7 @@ color: rgb(0, 0, 0);
 text-shadow: #f49f029f 4px 2px ;
 font-size: 48px;
 }
-button{
+.btn-1{
 background-image: linear-gradient(rgb(247, 180, 10),rgba(226, 209, 56, 0.56), rgb(225, 150, 44));
 border-radius: 100% 100% 90% 100%;
 width: 150px; 
@@ -85,6 +85,23 @@ font-size: 20px;
 background-image: url("https://www.bing.com/th/id/OGC.09e71f7458a0b53edf7d884eb97b6fbc?pid=1.7&rurl=https%3a%2f%2fmedia1.tenor.com%2fimages%2f09e71f7458a0b53edf7d884eb97b6fbc%2ftenor.gif%3fitemid%3d4931308&ehk=mvl1UBp8I0Ak4b6zviC2wiG8CVGvqOK3dx5N83n3ei8%3d");
 background-size: cover;
 
+}
+#modal{
+width: 900px;
+height: 500px;
+background-color: #00ffe1;
+}
+#modal, .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-2{
+  width: 150px; 
+height: 70px;
+box-shadow: 6px 5px 8px rgb(155, 88, 47); 
+font-family: cursive;
+font-size: 20px;
 }
 p{
 font-size: 30px;
